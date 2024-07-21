@@ -1,0 +1,150 @@
+body {
+  font-family: monospace;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #042331;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important; 
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #fff !important;
+  background-color: #0093ce !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.bg-cover {
+  color: #fff;
+  background: url('assets/img/go.jpg') no-repeat fixed;
+  background-size: cover;
+  padding: 200px 50px;
+  text-align: center;
+  height: 675px;
+}
+
+.bg-cover h1 {
+  font-size: 64px;
+}
+
+.bg-cover p {
+  font-size: 18px;
+}
+
+.bg-1 {
+  background-color: #008000; /* Green background for usage instructions */
+  color: #fff;
+  padding: 60px 50px;
+  text-align: justify;
+}
+
+.bg-dark {
+  background-color: #000; /* Black background for contact us and footer */
+  color: #fff;
+  padding: 60px 50px;
+}
+
+.bg-dark h3, .bg-dark p {
+  color: #fff; /* White text in contact us and footer */
+}
+
+hr.botm-line {
+  height: 3px;
+  width: 60px;
+  background: #ff0066; /* Red line for visual separation */
+  position: relative;
+  border: 0;
+  margin: 20px 0;
+}
+
+.panel {
+  border: 1px solid #0d001a;
+  border-radius: 0;
+  transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+  box-shadow: 5px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+.panel-heading {
+  color: #fff !important;
+  background-color: #0d001a !important;
+  padding: 25px;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+}
+
+
+.btn {
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px;
+  transition: .3s;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Blue button */
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-success {
+  background-color: #28a745; /* Green button */
+  border: none;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.btn-primary, .btn-success {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.purple {
+  color: #047da1;
+  border: 2px #11a6c0 solid;
+}
+
+.purple:hover {
+  color: rgb(11, 122, 196);
+  background-color: #0ba39c;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
